@@ -9,7 +9,7 @@ pipeline {
         }
         stage('run') {
             steps {
-                echo 'Clarusway_Way to Reinvent Yourself'
+                echo 'Clarusway_Way to Reinvent Yourself - HKNKRKS'
                 sh 'python --version'
                 sh 'python pipeline.py'
             }
